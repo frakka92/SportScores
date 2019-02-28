@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="app_name">SportScores</string>
+    <string name="initial_score">0</string>
+    <string name="reset">Reset</string>
+
+    <!-- Juventus -->
+    <string name="yellow">Yellow Card</string>
+    <string name="red">Red Card</string>
+    <string name="goal">GOOOOOOOAL</string>
+
+    <!-- Pens -->
+    <string name="offside">Offside</string>
+    <string name="penalty">Time Penalty</string>
+    <string name="score">SCOOOOOOORES</string>
+
+</resources>

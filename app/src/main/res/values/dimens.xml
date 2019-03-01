@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_bottom">8dp</dimen>
+    <dimen name="margin_top">8dp</dimen>
+    <dimen name="divider_margin_top">16dp</dimen>
+    <dimen name="margin_default">8dp</dimen>
+
+    <dimen name="padding_side">24dp</dimen>
+    <dimen name="padding_top">16dp</dimen>
+
+    <dimen name="height_logo">75dp</dimen>
+
+    <dimen name="score_size">56sp</dimen>
+    <dimen name="small_score_size">24sp</dimen>
+</resources>

@@ -76,19 +76,19 @@ public class MainActivity extends AppCompatActivity {
 
     public void addScorePens(View view) {
         this.setScorePens(1 + this.getScorePens());
-        TextView scoreView = (TextView) findViewById(R.id.pens_score);
+        TextView scoreView = findViewById(R.id.pens_score);
         scoreView.setText(String.valueOf(this.getScorePens()));
     }
 
     public void addOffsidePens(View view) {
         this.setOffsidePens(1 + this.getOffsidePens());
-        TextView offsideView = (TextView) findViewById(R.id.offside_pens);
+        TextView offsideView = findViewById(R.id.offside_pens);
         offsideView.setText(String.valueOf(this.getOffsidePens()));
     }
 
     public void addTimePenaltyPens(View view) {
         this.setPenaltyMinutesPens(1 + this.getPenaltyMinutesPens());
-        TextView penaltyView = (TextView) findViewById(R.id.time_penalty_pens);
+        TextView penaltyView = findViewById(R.id.time_penalty_pens);
         penaltyView.setText(String.valueOf(this.getPenaltyMinutesPens()));
     }
 
@@ -98,46 +98,46 @@ public class MainActivity extends AppCompatActivity {
 
     public void addGoalJuve(View view) {
         this.setGoalJuventus(1 + this.getGoalJuventus());
-        TextView goalView = (TextView) findViewById(R.id.juve_goals);
+        TextView goalView = findViewById(R.id.juve_goals);
         goalView.setText(String.valueOf(this.getGoalJuventus()));
     }
 
     public void addYellowCardsJuve(View view) {
         this.setYellowCardsJuve(1 + this.getYellowCardsJuve());
-        TextView yellowView = (TextView) findViewById(R.id.yellow_fouls_juve);
+        TextView yellowView = findViewById(R.id.yellow_fouls_juve);
         yellowView.setText(String.valueOf(this.getYellowCardsJuve()));
 
     }
 
     public void addRedCardsJuve(View view) {
         this.setRedCardsJuve(1 + this.getRedCardsJuve());
-        TextView redView = (TextView) findViewById(R.id.red_cards_juve);
+        TextView redView = findViewById(R.id.red_cards_juve);
         redView.setText(String.valueOf(this.getRedCardsJuve()));
     }
 
     public void reset(View view) {
         this.setScorePens(0);
-        TextView scoreView = (TextView) findViewById(R.id.pens_score);
+        TextView scoreView = findViewById(R.id.pens_score);
         scoreView.setText(String.valueOf(this.getScorePens()));
 
         this.setOffsidePens(0);
-        TextView offsideView = (TextView) findViewById(R.id.offside_pens);
+        TextView offsideView = findViewById(R.id.offside_pens);
         offsideView.setText(String.valueOf(this.getOffsidePens()));
 
         this.setPenaltyMinutesPens(0);
-        TextView penaltyView = (TextView) findViewById(R.id.time_penalty_pens);
+        TextView penaltyView = findViewById(R.id.time_penalty_pens);
         penaltyView.setText(String.valueOf(this.getPenaltyMinutesPens()));
 
         this.setGoalJuventus(0);
-        TextView goalView = (TextView) findViewById(R.id.juve_goals);
+        TextView goalView = findViewById(R.id.juve_goals);
         goalView.setText(String.valueOf(this.getGoalJuventus()));
 
         this.setYellowCardsJuve(0);
-        TextView yellowView = (TextView) findViewById(R.id.yellow_fouls_juve);
+        TextView yellowView = findViewById(R.id.yellow_fouls_juve);
         yellowView.setText(String.valueOf(this.getYellowCardsJuve()));
 
         this.setRedCardsJuve(0);
-        TextView redView = (TextView) findViewById(R.id.red_cards_juve);
+        TextView redView = findViewById(R.id.red_cards_juve);
         redView.setText(String.valueOf(this.getRedCardsJuve()));
 
     }
